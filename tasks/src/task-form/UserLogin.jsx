@@ -46,7 +46,7 @@ export default class UserLogin extends Component {
 					placeholder="Enter your password"
 					onChange={this.handlePasswordChange}
 				/>
-				<button type="submit">Login</button>
+				<button type="submit" className='button'>Login</button>
 			</form>
 		);
 	}
